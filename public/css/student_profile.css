@@ -1,0 +1,253 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+.bg-image{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: white no-repeat fixed center; 
+}
+
+.sidebar-container {
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background: #FFA82C;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    /* make the container close to the side, so spacing  */
+    left: 0;
+    top: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.logo{
+    position: absolute;
+    width: 267px;
+    height: 250px;
+    left: 3px;
+    top: -82px;
+    display: inline-block;
+}
+.nav-icons{
+    height: 2em;
+}
+
+  
+.sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    margin-top: 130px;
+}
+
+.sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+}
+
+.sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-navigation li .fa {
+    margin-right: 40px;
+}
+  
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus{
+    text-decoration: none;
+    outline: none;
+    color: #FFA82C;
+}
+  
+.sidebar-navigation li::before {
+    background-color: white;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 3px;
+    z-index: -1;
+    color: #FFA82C;
+}
+
+  
+.sidebar-navigation li:hover::before {
+    width: 100%;
+    
+}
+
+.content-container {
+    padding-left: 240px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    top: 0;
+} 
+
+.container{
+    background: #1A4977;
+    margin-top: 14em;
+    height: 3.7em;
+    border-radius: 50px; 
+    box-shadow: 20px 20px 50px 10px pink inset;
+    border: 3px solid white;
+}
+
+.name{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.role{
+    font-size: 12px;
+    text-align: center;
+    color: white;  
+}
+
+.title-border{
+    background-color: #ffffff;
+    width: 98.5%;
+
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+    margin-right: 28px;
+    font-size: 11px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+::placeholder{
+    font-size: 11px;
+    color: black;
+}
+
+input[type='text'] { font-size:12px}
+
+label{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #FFA82C !important;
+    border-color: #FFA82C !important;
+}
+
+#example {
+    border: 1px solid #c9c9c9;
+    width: 200px;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 0;  
+    border-radius: 10px;
+}
+
+#example .col {
+  border: 1px solid #c9c9c9;
+}
+
+#example .col:not(:last-child) {
+  border-right-width: 0;
+}
+
+#example .row:not(:last-child) .col {
+  border-bottom-width: 0;
+}
+
+.box-about-me{
+    border: 1px solid #c9c9c9;
+    padding: 10px
+}
+
+.head-details{
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+.skills{
+    background-color: #FFA82C;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.panel-skills{
+    border: 1px solid #1A4977;
+    background-color: #1A4977;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.image-container {
+    height: 150px;
+    width: 150px;
+    
+    border-radius: 50%;
+  }
+.image {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.button1 {
+    background-color: white ; 
+    color: black ; 
+    border: 2px solid #FFA82C !important;
+}
+
+.button1:hover {
+    background-color: #FFA82C;
+    color: white !important;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.alert.alert-danger-validation{
+    color: #ff0000;
+    background-color: transparent;
+    border-color: transparent;
+    
+}

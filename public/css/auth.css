@@ -1,0 +1,113 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #1A4977 no-repeat fixed center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo{
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    left: 3px;
+    top: -82px;
+    display: inline-block;
+}
+
+.main-title{
+    font-size:80rem;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 25px; 
+    
+    color: white;
+}
+h2{
+    font-weight: bold;
+}
+
+.login-img{
+    height: 170px;
+    width: 200px;
+    margin-left: 200px;
+}
+
+div.w-50{
+    width: 1000vh;
+}
+.form-group{
+    font-weight: bold;
+    font-size: 13px; 
+    cursor: pointer;
+}
+
+input.form-control, input.btn-primary, .form-check, button.btn-primary, ::placeholder, .option{
+    font-size: 13px; 
+}
+
+.section-form{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A4977;
+}
+
+.btn-primary{
+    background-color: #FFA82C !important;
+    border: 2px solid #FFA82C;
+    color: white;
+    margin-left: 115px;
+}
+.btn.btn-primary:hover {
+    background-color: white !important;
+    border-color: #FFA82C;
+    color: #FFA82C;
+}
+
+.footer {
+    
+    position: scroll;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+    background-color: #FFA82C;
+    color: white;
+    text-align: center;
+ }
+
+ .display-none {
+    display: none;
+}
+
+.alert.alert-danger{
+    color: #ff0000;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.login-text-2{
+    font-size: 16px;
+    text-align: center;
+}
+    
+.sign-up{
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.sign-up.a{
+    color: black;
+}

@@ -1,0 +1,242 @@
+.bg-image{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: white no-repeat fixed center; 
+}
+
+.sidebar-container {
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background: #1A4977;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    /* make the container close to the side, so spacing  */
+    left: 0;
+    top: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.logo{
+    position: absolute;
+    width: 267px;
+    height: 250px;
+    left: 3px;
+    top: -82px;
+    display: inline-block;
+}
+.nav-icons{
+    height: 2em;
+}
+
+  
+.sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    margin-top: 130px;
+}
+
+.sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+}
+
+.sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-navigation li .fa {
+    margin-right: 40px;
+}
+  
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus{
+    text-decoration: none;
+    outline: none;
+    color: #1A4977;
+}
+  
+.sidebar-navigation li::before {
+    background-color: white;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 3px;
+    z-index: -1;
+    color: #1A4977;
+}
+
+  
+.sidebar-navigation li:hover::before {
+    width: 100%;
+    
+}
+
+.content-container {
+    padding-left: 240px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    top: 0;
+} 
+
+.container{
+    background: #1A4977;
+    margin-top: 10em;
+    height: 3.7em;
+    border-radius: 50px; 
+    box-shadow: 20px 20px 50px 10px pink inset;
+    border: 3px solid white;
+}
+
+.name{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.role{
+    font-size: 12px;
+    text-align: center;
+    color: white;  
+}
+
+.title-border{
+    background-color: #ffffff;
+    width: 98.5%;
+
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    margin-left: 350px;
+    margin-right: 28px;
+    font-size: 11px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+input[type='text'] { font-size:12px}
+
+label{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #1A4977 !important;
+    border-color: #1A4977 !important;
+}
+
+#example {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#example .col {
+  border: 1px solid #c9c9c9;
+  margin-left: 350px;
+  margin-right: 60px;
+ 
+}
+
+#example .col:not(:last-child) {
+  border-right-width: 0;
+}
+
+#example .row:not(:last-child) .col {
+  border-bottom-width: 0;
+}
+
+.panel-job-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.panel-job-brief{
+  border: 1px solid rgb(211, 210, 210);
+  padding: 10px;
+}
+
+.panel-skills{
+  
+  border: 1px solid #1A4977;
+}
+
+button.panel-research-details{
+  font-size: 90px;
+  font-weight: bold;
+  color: #FFA82C;
+}
+
+.lecturer-details{
+    border: 1px solid #c9c9c9;
+}
+
+.head-details{
+    font-weight: bold;
+}
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eeecec;
+  }
+
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.alert.alert-danger{
+  color: #ff0000;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.image-container {
+  height: 150px;
+  width: 150px;
+  
+  border-radius: 50%;
+}
+.image {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

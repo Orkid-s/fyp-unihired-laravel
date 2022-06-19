@@ -1,0 +1,116 @@
+.sidebar-container {
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background: #1A4977;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    /* make the container close to the side, so spacing  */
+    left: 0;
+    top: 0;/*
+
+
+    overflow-x: hidden;
+    overflow-y: auto; */
+    
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.logo{
+    position: absolute;
+    width: 267px;
+    height: 250px;
+    left: 3px;
+    top: -82px;
+    display: inline-block;
+}
+.nav-icons{
+  height: 2em;
+}
+  .content-container {
+    padding-top: 20px;
+  }
+  
+  .sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    margin-top: 130px;
+  }
+  
+  .sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+  }
+  
+  .sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar-navigation li .fa {
+    margin-right: 40px;
+  }
+  
+  .sidebar-navigation li a:active,
+  .sidebar-navigation li a:hover,
+  .sidebar-navigation li a:focus{
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .sidebar-navigation li::before {
+    background-color: #FFA82C;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 5px;
+    z-index: -1;
+  }
+
+  
+  .sidebar-navigation li:hover::before {
+    width: 100%;
+  }
+  .content-container {
+    padding-left: 300px;
+  } 
+
+  .container{
+    background: #1A4977;
+    margin-top: 10.5em;
+    height: 3.7em;
+    border-radius: 50px; 
+    box-shadow: 20px 20px 50px 10px pink inset;
+    border: 3px solid white;
+    /* background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,168,44,1) 100%); */
+}
+.name{
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  
+}
+.role{
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  
+}
